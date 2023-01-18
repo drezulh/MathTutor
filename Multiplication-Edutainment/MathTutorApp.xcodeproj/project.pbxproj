@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE637D41295D85FD004ABC6E /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637D40295D85FD004ABC6E /* ViewsAndModifiers.swift */; };
+		DE637D43295DA33E004ABC6E /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637D42295DA33E004ABC6E /* IntroView.swift */; };
+		DE637D45295DA568004ABC6E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637D44295DA568004ABC6E /* MainView.swift */; };
+		DE637D47295DA7FC004ABC6E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637D46295DA7FC004ABC6E /* Question.swift */; };
+		DE637D49295DAA24004ABC6E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637D48295DAA24004ABC6E /* GameView.swift */; };
+		DE637D4B295DCB61004ABC6E /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637D4A295DCB61004ABC6E /* Questions.swift */; };
+		DE637D4D295DCFDF004ABC6E /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637D4C295DCFDF004ABC6E /* GameSettings.swift */; };
+		DE872E9D295B29F7003F9F39 /* Multiplication_EdutainmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE872E9C295B29F7003F9F39 /* Multiplication_EdutainmentApp.swift */; };
+		DE872E9F295B29F7003F9F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE872E9E295B29F7003F9F39 /* ContentView.swift */; };
+		DE872EA1295B29FC003F9F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE872EA0295B29FC003F9F39 /* Assets.xcassets */; };
+		DE872EA4295B29FC003F9F39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE872EA3295B29FC003F9F39 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE637D40295D85FD004ABC6E /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
+		DE637D42295DA33E004ABC6E /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		DE637D44295DA568004ABC6E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DE637D46295DA7FC004ABC6E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DE637D48295DAA24004ABC6E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		DE637D4A295DCB61004ABC6E /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		DE637D4C295DCFDF004ABC6E /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		DE872E99295B29F7003F9F39 /* MathTutorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTutorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE872E9C295B29F7003F9F39 /* Multiplication_EdutainmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplication_EdutainmentApp.swift; sourceTree = "<group>"; };
+		DE872E9E295B29F7003F9F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE872EA0295B29FC003F9F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE872EA3295B29FC003F9F39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE872E96295B29F7003F9F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE872E90295B29F7003F9F39 = {
+			isa = PBXGroup;
+			children = (
+				DE872E9B295B29F7003F9F39 /* Multiplication-Edutainment */,
+				DE872E9A295B29F7003F9F39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE872E9A295B29F7003F9F39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE872E99295B29F7003F9F39 /* MathTutorApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE872E9B295B29F7003F9F39 /* Multiplication-Edutainment */ = {
+			isa = PBXGroup;
+			children = (
+				DE872E9C295B29F7003F9F39 /* Multiplication_EdutainmentApp.swift */,
+				DE872E9E295B29F7003F9F39 /* ContentView.swift */,
+				DE637D4A295DCB61004ABC6E /* Questions.swift */,
+				DE637D42295DA33E004ABC6E /* IntroView.swift */,
+				DE637D44295DA568004ABC6E /* MainView.swift */,
+				DE637D4C295DCFDF004ABC6E /* GameSettings.swift */,
+				DE637D46295DA7FC004ABC6E /* Question.swift */,
+				DE637D48295DAA24004ABC6E /* GameView.swift */,
+				DE637D40295D85FD004ABC6E /* ViewsAndModifiers.swift */,
+				DE872EA0295B29FC003F9F39 /* Assets.xcassets */,
+				DE872EA2295B29FC003F9F39 /* Preview Content */,
+			);
+			path = "Multiplication-Edutainment";
+			sourceTree = "<group>";
+		};
+		DE872EA2295B29FC003F9F39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE872EA3295B29FC003F9F39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE872E98295B29F7003F9F39 /* MathTutorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE872EA7295B29FC003F9F39 /* Build configuration list for PBXNativeTarget "MathTutorApp" */;
+			buildPhases = (
+				DE872E95295B29F7003F9F39 /* Sources */,
+				DE872E96295B29F7003F9F39 /* Frameworks */,
+				DE872E97295B29F7003F9F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathTutorApp;
+			productName = "Multiplication-Edutainment";
+			productReference = DE872E99295B29F7003F9F39 /* MathTutorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE872E91295B29F7003F9F39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DE872E98295B29F7003F9F39 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = DE872E94295B29F7003F9F39 /* Build configuration list for PBXProject "MathTutorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE872E90295B29F7003F9F39;
+			productRefGroup = DE872E9A295B29F7003F9F39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE872E98295B29F7003F9F39 /* MathTutorApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE872E97295B29F7003F9F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE872EA4295B29FC003F9F39 /* Preview Assets.xcassets in Resources */,
+				DE872EA1295B29FC003F9F39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE872E95295B29F7003F9F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE637D41295D85FD004ABC6E /* ViewsAndModifiers.swift in Sources */,
+				DE637D43295DA33E004ABC6E /* IntroView.swift in Sources */,
+				DE637D4D295DCFDF004ABC6E /* GameSettings.swift in Sources */,
+				DE872E9F295B29F7003F9F39 /* ContentView.swift in Sources */,
+				DE637D47295DA7FC004ABC6E /* Question.swift in Sources */,
+				DE637D45295DA568004ABC6E /* MainView.swift in Sources */,
+				DE637D4B295DCB61004ABC6E /* Questions.swift in Sources */,
+				DE872E9D295B29F7003F9F39 /* Multiplication_EdutainmentApp.swift in Sources */,
+				DE637D49295DAA24004ABC6E /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE872EA5295B29FC003F9F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE872EA6295B29FC003F9F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE872EA8295B29FC003F9F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multiplication-Edutainment/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W7AN9P33M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.turan.gorkem.Multiplication-Edutainment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE872EA9295B29FC003F9F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multiplication-Edutainment/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W7AN9P33M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.turan.gorkem.Multiplication-Edutainment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE872E94295B29F7003F9F39 /* Build configuration list for PBXProject "MathTutorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE872EA5295B29FC003F9F39 /* Debug */,
+				DE872EA6295B29FC003F9F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE872EA7295B29FC003F9F39 /* Build configuration list for PBXNativeTarget "MathTutorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE872EA8295B29FC003F9F39 /* Debug */,
+				DE872EA9295B29FC003F9F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE872E91295B29F7003F9F39 /* Project object */;
+}
